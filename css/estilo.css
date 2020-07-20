@@ -1,9 +1,8 @@
 /* Estrutura do site */
 
 body {
-	background: #f4f2ec url(../img/fundo.png) repeat-x;
+	background: #f4f2ec url(../img/fundo.png) ;
 	font: 12px "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
-	
 }
 
 #container {
@@ -14,11 +13,22 @@ body {
 }
 
 a:link, a:active, a:visited {
-	color: #af670a;
+	color: #B3B0AC;
 	text-decoration: none;
+	
+}
+
+.nav-menu li a {
+	color: #B3B0AC;
+	text-decoration: none;
+	font: 18px "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
 }
 
 
+.nav-menu li a:hover {
+	color: #fff;
+	text-decoration: none;	
+}
 
 a:hover {
 	color: #fff;
@@ -44,6 +54,7 @@ a:hover {
 header {
 	padding: 15px 0;
 	height: 55px;
+	margin-bottom: 50px;
 }
 
 nav ul {
@@ -76,19 +87,22 @@ nav ul li a:hover{
 	
 }
 
+
+
 aside {
 	width: 350px;
 	float: right;
-	background: #ebe7dd;
+	background: url(../img/fundo2.jpg);
 	padding-bottom: 30px;
 	margin-bottom: 20px;
 }
 
 section#visita {
-	background: #cdc8b1;
+	background: url(../img/marcar_corrida.jpg);
 	padding: 10px 27px 27px 27px;
 	margin-top: 10px;
 }
+
 
 article#video{
 	float: left;
@@ -108,6 +122,8 @@ article#postagens{
 	float: left;
 	width: 310px;
 	margin: 15px 0 0 25px;
+	margin-bottom: 20px;
+	
 	
 }
 
@@ -115,19 +131,20 @@ article#historia{
 	float: left;
 	width: 310px;
 	margin: 15px 0 0 37px;
-
+	color: #fff;
 	
 }
 
 h3 {
-	color: #227115;
-	font-size: 1.0em;
+	color: #fff;
+	font-size: 0.7em;
 	margin-bottom: 15px;
 	text-transform: uppercase;
 }
 
 h4 {
-	color: #86521a;
+	text-decoration: none;
+	color: #AAA6A5;
 	text-transform: uppercase;
 	margin-bottom: 0;
 }
